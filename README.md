@@ -26,7 +26,7 @@ Clone this app using the command:
 `mysqldump -u root -p --no-data e_commerce > schema.sql`
 
 ### Import Schema
-`mysql -u username -p e_commerce < sqlScripts/tshirtshop.sql`
+`mysql -u username -p e_commerce < sqlScript/tshirtshop.sql`
 
 ### Run server with Auto Reload
 `npm start`
